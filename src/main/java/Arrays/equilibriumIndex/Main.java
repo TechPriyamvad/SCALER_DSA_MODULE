@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Equilibrium index[Prefix Sum]: " + resultPrefixSum);
         int resultOptimised = eq.equilibriumIndexOptimised(arrayList);
         System.out.println("Equilibrium index[Optimised]: " + resultOptimised);
+
+        System.out.println("Sum of all subarrays: " + sum_of_all_subarrays.sumOfAllSubarrays());
     }
 }
