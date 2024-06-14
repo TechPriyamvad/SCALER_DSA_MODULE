@@ -18,5 +18,6 @@ public class Main {
         System.out.println("Equilibrium index[Optimised]: " + resultOptimised);
 
         System.out.println("Sum of all subarrays: " + sum_of_all_subarrays.sumOfAllSubarrays());
+        System.out.println("Maximum sum contiguous subarray: " + maximumSumContiguousSubarray.maxSumContiguousSubarray() + " " + maximumSumContiguousSubarray.maxSumSubarray);
     }
 }
