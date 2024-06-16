@@ -20,5 +20,6 @@ public class Main {
         System.out.println("Sum of all subarrays: " + sum_of_all_subarrays.sumOfAllSubarrays());
         System.out.println("Maximum sum contiguous subarray: " + maximumSumContiguousSubarray.maxSumContiguousSubarray() + " " + maximumSumContiguousSubarray.maxSumSubarray);
         System.out.println("First missing positive integer: " + firstMissingPositiveInteger.firstMissingPositive());
+        System.out.println("Rain water trapped: " + RainWaterTrapped.rainWaterTrapped() + " units");
     }
 }

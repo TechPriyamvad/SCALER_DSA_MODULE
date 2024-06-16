@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e6f3681-b8d0-43a2-ac18-96d1f4478bd9" name="Changes" comment="added encoding file">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/equilibriumIndex/EquilibriumIndex.java" afterDir="false" />
+    <list default="true" id="4e6f3681-b8d0-43a2-ac18-96d1f4478bd9" name="Changes" comment="added code for first missing positive integer problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/equilibriumIndex/RainWaterTrapped.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/equilibriumIndex/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +28,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2hllLA9UHYp0fqrl6KCmh1THCsR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,17 +42,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/development/MERN/Javascript",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Scaler/module/DSA/DSA/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,6 +78,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718176489831</updated>
-      <workItem from="1718176490942" duration="2871000" />
+      <workItem from="1718176490942" duration="3713000" />
+      <workItem from="1718336933710" duration="7569000" />
     </task>
     <task id="LOCAL-00001" summary="added initial setup">
       <option name="closed" value="true" />
@@ -101,7 +112,39 @@
       <option name="project" value="LOCAL" />
       <updated>1718176753874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added code for equilibrium index problem">
+      <option name="closed" value="true" />
+      <created>1718249860568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718249860569</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added code for sum of all subarray problem">
+      <option name="closed" value="true" />
+      <created>1718344276117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718344276117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added code for maximum subarray sum problem">
+      <option name="closed" value="true" />
+      <created>1718345783265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718345783265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added code for first missing positive integer problem">
+      <option name="closed" value="true" />
+      <created>1718443934491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718443934491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +164,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added initial setup" />
     <MESSAGE value="added encoding file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added encoding file" />
+    <MESSAGE value="added code for equilibrium index problem" />
+    <MESSAGE value="added code for sum of all subarray problem" />
+    <MESSAGE value="added code for maximum subarray sum problem" />
+    <MESSAGE value="added code for first missing positive integer problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for first missing positive integer problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,12 +178,11 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Arrays/equilibriumIndex/EquilibriumIndex.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
